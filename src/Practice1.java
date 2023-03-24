@@ -10,12 +10,10 @@ public class Practice1 {
     public static boolean checkPrime(int num){
         if (num < 2){
             return false;
-        } else {
-            for (float i = 2; i < Math.sqrt(num); i++){
+        } for (byte i = 2; i < Math.sqrt(num); i++){
                 if (num % i == 0){
                     return false;
                 }
             } return true;
-        }
     }
 }
