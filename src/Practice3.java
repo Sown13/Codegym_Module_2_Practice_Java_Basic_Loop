@@ -6,9 +6,6 @@ public class Practice3 {
     }
     public static int[] push(int [] array, int push) {
         int [] arrayAfterPush = new int[array.length + 1];
-//        for (int i = 0; i < array.length; i++) {
-//            arrayAfterPush[i] = array[i];
-//        }
         System.arraycopy(array,0,arrayAfterPush,0,array.length);
         arrayAfterPush[array.length] = push;
         return arrayAfterPush;
